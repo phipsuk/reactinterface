@@ -123,4 +123,4 @@ ReactDOM.render(
 ); //render
 
 //Phips
-ReactDOM.render(<HeaderComponent />, document.getElementById('react-container'));
+ReactDOM.render(<HeaderComponent />, document.getElementById('header'));
