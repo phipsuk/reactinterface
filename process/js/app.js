@@ -5,6 +5,8 @@ var _ = require('lodash');
 var AptList = require('./AptList');
 var AddAppointment = require('./AddAppointment');
 var SearchAppointments = require('./SearchAppointments');
+var HeaderComponent = require('./HeaderComp');
+
 
 var MainInterface = React.createClass({
   getInitialState: function() {
@@ -119,3 +121,6 @@ ReactDOM.render(
   <MainInterface />,
   document.getElementById('petAppointments')
 ); //render
+
+//Phips
+ReactDOM.render(<HeaderComponent />, document.getElementById('react-container'));
